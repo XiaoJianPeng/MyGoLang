@@ -6,6 +6,7 @@ import (
 )
 
 type Monster struct {
+	// 如果我们希望序列化后的key由我们重新制定，name可以使用tag标签，如下图
 	Name  string `json:"name"`
 	Age   int
 	Sal   float64
